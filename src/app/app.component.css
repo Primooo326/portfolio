@@ -1,0 +1,85 @@
+#section1{
+  background: rgb(10,10,11);
+background: linear-gradient(270deg, rgba(10,10,11,1) 0%, rgba(36,33,64,1) 35%, rgba(82,72,146,1) 100%);
+height: 500px;
+}
+#section3 {
+  background-image: url(/assets/waves.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+section{
+ padding: 100px 50px;
+}
+.chivomono{
+  font-family: 'Chivo Mono', monospace;
+
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content2 {
+  margin: 50px 0 ;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  width: 400px;
+  height: 400px;
+}
+img{
+  width: 100%;
+}
+
+.content h4{
+  max-width: 400px;
+}
+.bodyCard {
+  width: 100%;
+  height: 100%;
+}
+.bodyCard .imagen{
+  display: none;
+  background-color: #524892;
+  width: 100%;
+  height: 100%;
+}
+.bodyCard:hover .imagen{
+display: flex;
+justify-content: center;
+align-items: center;
+animation: fadeIn;
+animation-duration: .7s;
+}
+.content3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bodyCard .tania_img{
+  object-fit: none;
+  width: 100%;
+  height: 100%;
+}
+
+.content4 img{
+  float: left; width: 400px; height: auto;
+  margin-right: 10px;
+}
+
+.clip-circle {
+  clip-path: circle(200px at center);
+  shape-outside: circle(50%);
+}
+.blob {
+  float: left; width: 300px; height: auto;
+
+}
